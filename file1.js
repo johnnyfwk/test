@@ -1,3 +1,3 @@
-const forename = "Johnny";
+const forename = "what what what";
 
-console.log(forename);
+module.exports = forename;
