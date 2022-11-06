@@ -14,11 +14,10 @@ h1 {
 #grid {
     display: grid;
     gap: 10px;
-    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(50px, 1fr));
 }
 
 #grid > div {
-    width: 100px;
     height: 100px;
     background: black;
 }
@@ -26,11 +25,10 @@ h1 {
 #grid2 {
     display: grid;
     gap: 10px;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
 }
 
 #grid2 > div {
-    width: ;
     height: 100px;
     background: orange;
 }
