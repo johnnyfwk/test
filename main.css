@@ -1,0 +1,36 @@
+* {
+    border: 1px dashed red;
+}
+
+body {
+    max-width: 900px;
+    margin: auto;
+}
+
+h1 {
+    color: red;
+}
+
+#grid {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+}
+
+#grid > div {
+    width: 100px;
+    height: 100px;
+    background: black;
+}
+
+#grid2 {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+}
+
+#grid2 > div {
+    width: ;
+    height: 100px;
+    background: orange;
+}
